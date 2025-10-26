@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Machine Learning/Software Engineer!</h3>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=luisjg8&show_icons=true&locale=en&layout=compact" alt="luisjg8" /></p>
-
+</br>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=luisjg8&show_icons=true&locale=en" alt="luisjg8" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=luisjg8&" alt="luisjg8" /></p>
