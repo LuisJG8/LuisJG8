@@ -1,4 +1,6 @@
+```yaml
 ## Hi there 👋
+```
 
 <!--
 **LuisJG8/LuisJG8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
