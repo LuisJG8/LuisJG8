@@ -2,7 +2,7 @@
 ## Hi there 👋
 ```
 
-![Luis's GitHub stats](https://github-readme-stats.vercel.app/api?username=LuisJG8&show_icons=true&theme=onedark)
+![Luis's GitHub stats](https://github-readme-stats.vercel.app/api?username=LuisJG8&show_icons=true&theme=tokyonight)
 
 <!--
 **LuisJG8/LuisJG8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
