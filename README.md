@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Luis</h1>
 <h3 align="center">A very passionate Machine Learning/Backend Engineer!</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=luisjg8&label=Profile%20views&color=0e75b6&style=flat" alt="luisjg8" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=luisjg8" alt="luisjg8" /></a> </p>
 
 - 🔭 I’m currently working on a **github ETL pipeline (extract transform load)**
