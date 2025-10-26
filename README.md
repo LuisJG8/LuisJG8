@@ -3,26 +3,6 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=luisjg8" alt="luisjg8" /></a> </p>
 
-- 🔭 I’m currently working on a **github ETL pipeline (extract transform load)**
-
-- 🌱 I’m currently learning **.**
-
-- 👯 I’m looking to collaborate on **.**
-
-- 🤝 I’m looking for help with **.**
-
-- 👨‍💻 All of my projects are available at [.](.)
-
-- 📝 I regularly write articles on [.](.)
-
-- 💬 Ask me about **.**
-
-- 📫 How to reach me **.**
-
-- 📄 Know about my experiences [.](.)
-
-- ⚡ Fun fact **I am left handed**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/luisjg8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="luisjg8" height="30" width="40" /></a>
