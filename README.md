@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋 I'm Luis</h1>
 
-<h3 align="center">Passionate ML/Software Engineer. I love building backend systems like APIs, Queues, ETL/ML pipelines and distributed architectures. Always excited to learn new things and improve my skills.</h3>
+<h3 align="left">Passionate ML/Software Engineer. I love building backend systems like APIs, Queues, ETL/ML pipelines and distributed architectures. Always excited to learn new things and improve my skills.</h3>
 
 <br>
 
