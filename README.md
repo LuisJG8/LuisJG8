@@ -16,6 +16,4 @@
 
 <br>
 
-<p align="left">
-  [![GitHub Streak](https://streak-stats.demolab.com/? user=LuisJG8)](https://git.io/streak-stats)
-</p>
+[![GitHub Streak](https://streak-stats.demolab.com?user=LuisJG8)](https://git.io/streak-stats)
