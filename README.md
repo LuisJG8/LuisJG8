@@ -1,6 +1,6 @@
 <h1 align="left">Hi 👋<br> I'm Luis</h1>
 
-<h3 align="left">Passionate ML/Software Engineer. I love building Machine Learning models, from traditional classification or regression models to Deep Learning models.<br> I also love building backend systems like APIs, Queues, ETL pipelines and distributed architectures. Always excited to learn new things and improve my skills!</h3>
+<h3 align="left">Passionate ML/Software Engineer. I love building Machine Learning models, from traditional classification or regression models to Deep Learning models.<br> <br> I also love building backend systems like APIs, Queues, ETL pipelines and distributed architectures. Always excited to learn new things and improve my skills!</h3>
 
 
 <p align="left">
