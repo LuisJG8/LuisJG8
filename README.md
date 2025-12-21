@@ -6,12 +6,8 @@
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=luisjg8&show_icons=true&locale=en" alt="luisjg8" />
   <img src="https://streak-stats.demolab.com?user=LuisJG8" alt="GitHub Streak" />
-</p>
-
-<br>
-
-<p align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=luisjg8&show_icons=true&locale=en&layout=compact" alt="luisjg8" />
 </p>
 
 <br>
+
