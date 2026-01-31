@@ -5,4 +5,4 @@
 ![My GitHub Game](game.gif)
 
 
-<img width="896" height="896" alt="image" src="https://github.com/user-attachments/assets/955c7de2-5a76-43bd-91b1-e3b0fa94df82" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/955c7de2-5a76-43bd-91b1-e3b0fa94df82" />
