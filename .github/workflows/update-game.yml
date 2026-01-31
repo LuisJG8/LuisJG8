@@ -1,35 +1,3 @@
-name: Update Space Shooter Game
+- name: GitHub Space Shooter
 
-on:
-  schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:  # Allow manual trigger
-
-permissions:
-  contents: write
-
-jobs:
-  update-game:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: MyProjects
-          fetch-depth: 0  # Fetch all history to enable pulling
-
-      - uses: czl9707/gh-space-shooter@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          output-path: 'game.gif'
-          strategy: 'random'
-      
-      - name: Commit and push with rebase
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "GitHub Actions"
-          git add game.gif
-          git diff --quiet && git diff --staged --quiet || {
-            git commit -m "Update space shooter game GIF"
-            git pull --rebase origin MyProjects
-            git push origin MyProjects
-          }
+  uses: czl9707/gh-space-shooter@v1.0.0
