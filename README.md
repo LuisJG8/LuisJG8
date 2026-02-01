@@ -2,7 +2,8 @@
 <h1 align="left">Hi, I'm Luis</h1>
 
 
-<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/01f98724-f996-4ed7-a924-323641618c6d" />
+<img width="250" height="250" alt="image" src="https://octodex.github.com/images/NUX_Octodex.gif" />
+
 
 <h3 align="left">I'm a passionate ML/Software Engineer that loves building Machine Learning models; from traditional classification models to Deep Learning models.<br> <br> I also love building backend systems like APIs, Queues, ETL pipelines and distributed architectures. Always excited to learn new things and improve my skills!</h3>
 
