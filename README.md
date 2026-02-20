@@ -28,11 +28,6 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 
 ---
 
-## Selected project
-- GitHub ETL Data Pipeline — Scalable ETL built with Python, Celery, RabbitMQ, and S3 to extract and process TBs of GitHub repository data for analytics and ML training.
-
----
-
 ## What I’m working on / interests
 - Building robust data platforms for model-driven products
 - Improving LLM-assisted extraction and data validation pipelines
