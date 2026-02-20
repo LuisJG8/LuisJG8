@@ -1,13 +1,43 @@
-<!-- <h1 align="left">Hi 👋<br> I'm Luis</h1> -->
-<h1 align="left">Hi, I'm Luis</h1>
+# Hi — I’m Luis 👋
 
-<h2 align="left">I'm a passionate ML/Software Engineer that loves building Machine Learning models; from traditional classification models to Deep Learning models.<br> <br> I also love building backend systems like APIs, Queues, ETL pipelines and distributed architectures. Always excited to learn new things and improve my skills!</h2>
+Data & Software Engineer focused on building reliable, scalable systems and practical ML solutions. I enjoy turning messy data into production-ready pipelines and deploying models and services that deliver measurable value.
 
-<h2>
-  I love contributing to Metaflow
-</h2>
+[LinkedIn](https://www.linkedin.com/in/luisjg8/) • [GitHub](https://github.com/LuisJG8) • luisjorgegonzalez828@gmail.com
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=LuisJG8)](https://git.io/streak-stats)
+---
 
-![My GitHub Game](game.gif)
+## About
+- Passionate about backend systems, data engineering, and machine learning — from traditional models to deep learning and LLM-driven pipelines.
+- Strong background building ETL pipelines, APIs, distributed task systems, and data platforms designed for analytics and ML.
+- Active contributor and user of Metaflow; enjoy improving ML workflows and reproducibility.
 
+---
+
+## Professional snapshot
+- Experience as a Backend Software Engineer and Data Engineer (industry and internship experience), working with large-scale data ingestion, transformation, and model-ready datasets.
+- Comfortable designing and operating solutions on cloud platforms and modern data warehouses.
+
+---
+
+## Technical stack
+- Cloud & infra: AWS (Lambda, ECS/Fargate, S3), Snowflake, Azure, Docker
+- Data: SQL, Snowpark, Pandas, Polars, DuckDB, Apache Spark, Airflow
+- ML & libraries: TensorFlow, Scikit-Learn, XGBoost, Metaflow
+- Backend & tools: Python, FastAPI, Django, Java, Spring Boot, Celery, RabbitMQ, Redis
+- Dev & workflow: Git/GitHub, CI, Looker, Docker, Jira
+
+---
+
+## Selected project
+- GitHub ETL Data Pipeline — Scalable ETL built with Python, Celery, RabbitMQ, and S3 to extract and process TBs of GitHub repository data for analytics and ML training.
+
+---
+
+## What I’m working on / interests
+- Building robust data platforms for model-driven products
+- Improving LLM-assisted extraction and data validation pipelines
+- Contributing to Metaflow and open-source tooling for reproducible ML
+
+---
+
+If you’d like to collaborate or see more details (projects, resume), reach out on LinkedIn or GitHub — I’m always open to interesting data & ML engineering challenges.
