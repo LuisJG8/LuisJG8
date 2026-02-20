@@ -5,7 +5,7 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 
 ## About
 - Passionate about backend systems, data engineering, and machine learning — from traditional models to deep learning and LLM-driven pipelines.
-- Strong background building ETL pipelines, APIs, distributed task systems, and data platforms designed for analytics and ML.
+- Strong background building ETL pipelines, APIs, distributed task systems, and data platforms designed for ML.
 - Active contributor and user of Metaflow; enjoy improving ML workflows and reproducibility.
 
 
