@@ -17,11 +17,10 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 
 
 ## Technical stack
-- Cloud & infra: AWS (Lambda, ECS/Fargate, S3), Snowflake, Azure, Docker
-- Data: SQL, Snowpark, Pandas, Polars, DuckDB, Apache Spark, Airflow
-- ML & libraries: TensorFlow, Scikit-Learn, XGBoost, Metaflow
-- Backend & tools: Python, FastAPI, Django, Java, Spring Boot, Celery, RabbitMQ, Redis
-- Dev & workflow: Git/GitHub, CI, Looker, Docker, Jira
+- Programming Languages: Python, SQL, Java, JavaScript/TypeScript, Scala
+- Cloud & infra: AWS (Lambda, ECS/Fargate, S3), Snowflake, Azure, Docker, CI/CD
+- ML & libraries: Scikit-Learn, XGBoost, Metaflow, Pandas, Polars, DuckDB, Apache Spark, Airflow, Tensorflow
+- Backend Frameworks: FastAPI, Django, Spring Boot
 
 
 
