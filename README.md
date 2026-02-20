@@ -1,6 +1,6 @@
 # Hi — I’m Luis 👋
 
-Data & Software Engineer focused on building reliable, scalable systems and practical ML solutions. I enjoy turning messy data into production-ready pipelines and deploying models and services that deliver measurable value.
+ML & Software Engineer focused on building reliable, scalable systems and practical ML solutions. I enjoy turning messy data into production-ready pipelines and deploying models and services that deliver measurable value.
 
 [LinkedIn](https://www.linkedin.com/in/luisjg8/) • [GitHub](https://github.com/LuisJG8) • luisjorgegonzalez828@gmail.com
 
@@ -39,10 +39,5 @@ Data & Software Engineer focused on building reliable, scalable systems and prac
 - Contributing to Metaflow and open-source tooling for reproducible ML
 
 ---
-
-If you’d like to collaborate or see more details (projects, resume), reach out on LinkedIn or GitHub — I’m always open to interesting data & ML engineering challenges.
-
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=LuisJG8)](https://git.io/streak-stats)
 
 ![My GitHub Game](game.gif)
