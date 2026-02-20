@@ -41,3 +41,8 @@ Data & Software Engineer focused on building reliable, scalable systems and prac
 ---
 
 If you’d like to collaborate or see more details (projects, resume), reach out on LinkedIn or GitHub — I’m always open to interesting data & ML engineering challenges.
+
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=LuisJG8)](https://git.io/streak-stats)
+
+![My GitHub Game](game.gif)
