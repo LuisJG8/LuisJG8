@@ -25,11 +25,10 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 
 ---
 
-## What I’m working on / interests
+## Interests
 - Building robust data platforms for model-driven products
 - Improving LLM-assisted extraction and data validation pipelines
 - Contributing to Metaflow and open-source tooling for reproducible ML
 
----
 
 ![My GitHub Game](game.gif)
