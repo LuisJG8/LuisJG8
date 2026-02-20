@@ -4,7 +4,6 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 
 [LinkedIn](https://www.linkedin.com/in/luisjg8/) • [GitHub](https://github.com/LuisJG8) • luisjorgegonzalez828@gmail.com
 
----
 
 ## About
 - Passionate about backend systems, data engineering, and machine learning — from traditional models to deep learning and LLM-driven pipelines.
