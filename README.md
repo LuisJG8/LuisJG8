@@ -7,7 +7,7 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 - Passionate about backend systems, software engineering, and machine learning — from traditional models to deep learning and LLM-driven pipelines.
 - Strong background building ETL pipelines, APIs, distributed task systems, and data platforms designed for ML.
 - Active contributor and user of Metaflow; enjoy improving ML workflows and reproducibility.
-
+- Member of the [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 
 
 ## Professional snapshot
@@ -18,7 +18,7 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 
 ## Technical stack
 - Programming Languages: Python, SQL, Java, JavaScript/TypeScript, Scala
-- Cloud & infra: AWS (Lambda, ECS/Fargate, S3), Snowflake, Azure, Docker, CI/CD
+- Cloud & infra: [AWS](https://www.credly.com/users/luis-jorge-gonzalez-mendez) (Lambda, ECS/Fargate, S3), Snowflake, Azure, Docker, CI/CD
 - ML & libraries: Scikit-Learn, XGBoost, Metaflow, Pandas, Polars, DuckDB, Apache Spark, Airflow, Tensorflow
 - Backend Frameworks: FastAPI, Django, Spring Boot
 
@@ -29,9 +29,7 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 - Improving LLM-assisted extraction and data validation pipelines
 - Contributing to Metaflow and open-source tooling for reproducible ML
 - I like to give presentations about Machine Learning and Distributed Systems (https://www.linkedin.com/feed/update/urn:li:activity:7409734941015502848/).
-- Member of the Miami Snowflake User Group
 
 
-- You can find all my AWS certifications here: https://www.credly.com/users/luis-jorge-gonzalez-mendez
 
 ![My GitHub Game](game.gif)
