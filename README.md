@@ -18,7 +18,7 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 
 ## Technical stack
 - Programming Languages: Python, SQL, Java, JavaScript/TypeScript, Scala
-- Cloud & infra: [AWS](https://www.credly.com/users/luis-jorge-gonzalez-mendez) (Lambda, ECS/Fargate, S3), Snowflake, Azure, Docker, CI/CD
+- Cloud & infra: [AWS](https://www.credly.com/users/luis-jorge-gonzalez-mendez), Snowflake, Azure, Docker, CI/CD
 - ML & libraries: Scikit-Learn, XGBoost, Metaflow, Pandas, Polars, DuckDB, Apache Spark, Airflow, Tensorflow
 - Backend Frameworks: FastAPI, Django, Spring Boot
 
