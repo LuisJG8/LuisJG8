@@ -26,7 +26,7 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 
 ## Interests
 - Building robust data platforms for model-driven products
-- Contributing to Metaflow and open-source tooling for reproducible ML
+- Contributing to Metaflow and open-source tooling for reproducible Machine Learning systems
 - I like to give presentations about Machine Learning and Distributed Systems (https://www.linkedin.com/feed/update/urn:li:activity:7409734941015502848/).
 
 
