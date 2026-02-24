@@ -13,7 +13,6 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 ## Professional snapshot
 - Experience as a Backend Software Engineer and Data Engineer (industry and internship experience), working with large-scale data ingestion, transformation, and model-ready datasets.
 - Comfortable designing and operating solutions on cloud platforms and modern data warehouses.
-- You can find my AWS certifications here: https://www.credly.com/users/luis-jorge-gonzalez-mendez
 
 
 
@@ -33,6 +32,6 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 - Member of the Miami Snowflake User Group
 
 
-
+- You can find all my AWS certifications here: https://www.credly.com/users/luis-jorge-gonzalez-mendez
 
 ![My GitHub Game](game.gif)
