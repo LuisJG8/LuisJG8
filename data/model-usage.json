@@ -1,20 +1,71 @@
 {
-  "generatedAt": "2026-03-19T23:40:48+00:00",
+  "generatedAt": "2026-03-19T23:46:42+00:00",
   "period": {
-    "from": "Feb 02, 2026",
-    "to": "Mar 19, 2026"
+    "from": "2026-02-02",
+    "to": "2026-03-19"
   },
   "totals": {
     "model": "TOTAL",
-    "input_tokens": 0,
-    "output_tokens": 0,
+    "input_tokens": 1027918690,
+    "output_tokens": 5211316,
     "cache_creation_tokens": 0,
-    "cache_read_tokens": 0,
-    "reasoning_tokens": 0,
-    "total_tokens": 0,
-    "cost_usd": 0.0
+    "cache_read_tokens": 864905088,
+    "reasoning_tokens": 2922395,
+    "total_tokens": 1033130006,
+    "cost_usd": 376.982264
   },
-  "models": [],
+  "models": [
+    {
+      "model": "gpt-5.3-codex",
+      "input_tokens": 775298697,
+      "output_tokens": 3767240,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 686357120,
+      "reasoning_tokens": 2155593,
+      "total_tokens": 779065937,
+      "cost_usd": 264.311323
+    },
+    {
+      "model": "gpt-5.2-codex",
+      "input_tokens": 131712043,
+      "output_tokens": 860047,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 105082368,
+      "reasoning_tokens": 514364,
+      "total_tokens": 132572090,
+      "cost_usd": 36.737832
+    },
+    {
+      "model": "gpt-5.4",
+      "input_tokens": 117864570,
+      "output_tokens": 551599,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 70638976,
+      "reasoning_tokens": 230227,
+      "total_tokens": 118416169,
+      "cost_usd": 75.933109
+    },
+    {
+      "model": "gpt-5.3-codex-spark",
+      "input_tokens": 2786657,
+      "output_tokens": 29640,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 2659456,
+      "reasoning_tokens": 20358,
+      "total_tokens": 2816297,
+      "cost_usd": 0.0
+    },
+    {
+      "model": "gpt-5.2",
+      "input_tokens": 256723,
+      "output_tokens": 2790,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 167168,
+      "reasoning_tokens": 1853,
+      "total_tokens": 259513,
+      "cost_usd": 0.0
+    }
+  ],
   "sourceCommand": "npx --yes @ccusage/codex@latest daily --json --breakdown --offline",
   "rowCount": 42
 }

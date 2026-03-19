@@ -71,6 +71,19 @@ class TestUpdateModelUsage(unittest.TestCase):
         self.assertEqual(summary["totals"]["total_tokens"], 2000)
         self.assertEqual(summary["models"][0]["model"], "gpt-5")
 
+    def test_parser_supports_models_dict_shape(self):
+        payload = self.load_fixture("codex_daily_models_dict.json")
+        rows = self.mod.normalize_rows(payload)
+        summary = self.mod.build_summary(rows, "mock")
+
+        self.assertEqual(summary["period"]["from"], "2026-02-02")
+        self.assertEqual(summary["period"]["to"], "2026-03-19")
+        self.assertEqual(len(summary["models"]), 1)
+        self.assertEqual(summary["models"][0]["model"], "gpt-5.2-codex")
+        self.assertEqual(summary["models"][0]["cache_read_tokens"], 750)
+        self.assertEqual(summary["models"][0]["reasoning_tokens"], 40)
+        self.assertEqual(summary["models"][0]["cost_usd"], 0.44)
+
     def test_no_data_message(self):
         summary = self.mod.build_summary([], "mock")
         readme_block = self.mod.render_usage_block(summary)

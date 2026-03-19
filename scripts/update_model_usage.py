@@ -179,6 +179,16 @@ def iter_model_breakdowns(row: dict[str, Any]) -> list[tuple[str, dict[str, Any]
             if parsed:
                 return parsed
 
+    models_dict = row.get("models")
+    if isinstance(models_dict, dict):
+        parsed = [
+            (str(model), stats)
+            for model, stats in models_dict.items()
+            if isinstance(stats, dict)
+        ]
+        if parsed:
+            return parsed
+
     model_value = row.get("model")
     if isinstance(model_value, str):
         return [(model_value, row)]
@@ -195,16 +205,34 @@ def serialize_model(item: ModelSummary) -> dict[str, Any]:
     return payload
 
 
+def normalize_date(date_text: str) -> tuple[datetime | None, str]:
+    date_text = date_text.strip()
+    for fmt in ("%Y-%m-%d", "%b %d, %Y", "%B %d, %Y"):
+        try:
+            parsed = datetime.strptime(date_text, fmt)
+            return parsed, parsed.date().isoformat()
+        except ValueError:
+            continue
+    return None, date_text
+
+
 def build_summary(rows: list[dict[str, Any]], source_command: str) -> dict[str, Any]:
     per_model: dict[str, ModelSummary] = {}
-    period_dates: list[str] = []
+    parsed_period_dates: list[datetime] = []
+    raw_period_dates: list[str] = []
 
     for row in rows:
         date_value = row.get("date")
         if isinstance(date_value, str):
-            period_dates.append(date_value)
+            parsed, normalized = normalize_date(date_value)
+            raw_period_dates.append(normalized)
+            if parsed is not None:
+                parsed_period_dates.append(parsed)
 
-        for model_name, stats in iter_model_breakdowns(row):
+        model_rows = iter_model_breakdowns(row)
+        row_cost = get_number(row, "costUSD", "totalCost", "cost_usd")
+
+        for model_name, stats in model_rows:
             model = per_model.setdefault(model_name, ModelSummary(model=model_name))
             model.input_tokens += int(get_number(stats, "inputTokens", "input_tokens"))
             model.output_tokens += int(get_number(stats, "outputTokens", "output_tokens"))
@@ -212,10 +240,20 @@ def build_summary(rows: list[dict[str, Any]], source_command: str) -> dict[str, 
                 get_number(stats, "cacheCreationTokens", "cache_creation_tokens")
             )
             model.cache_read_tokens += int(
-                get_number(stats, "cacheReadTokens", "cache_read_tokens")
+                get_number(
+                    stats,
+                    "cacheReadTokens",
+                    "cachedInputTokens",
+                    "cache_read_tokens",
+                )
             )
             model.reasoning_tokens += int(
-                get_number(stats, "reasoningTokens", "reasoning_tokens")
+                get_number(
+                    stats,
+                    "reasoningTokens",
+                    "reasoningOutputTokens",
+                    "reasoning_tokens",
+                )
             )
 
             total = int(get_number(stats, "totalTokens", "total_tokens"))
@@ -224,10 +262,20 @@ def build_summary(rows: list[dict[str, Any]], source_command: str) -> dict[str, 
                     int(get_number(stats, "inputTokens", "input_tokens"))
                     + int(get_number(stats, "outputTokens", "output_tokens"))
                     + int(get_number(stats, "cacheCreationTokens", "cache_creation_tokens"))
-                    + int(get_number(stats, "cacheReadTokens", "cache_read_tokens"))
+                    + int(
+                        get_number(
+                            stats,
+                            "cacheReadTokens",
+                            "cachedInputTokens",
+                            "cache_read_tokens",
+                        )
+                    )
                 )
             model.total_tokens += total
-            model.cost_usd += get_number(stats, "costUSD", "totalCost", "cost_usd")
+            stats_cost = get_number(stats, "costUSD", "totalCost", "cost_usd")
+            if stats_cost == 0 and row_cost and len(model_rows) == 1:
+                stats_cost = row_cost
+            model.cost_usd += stats_cost
 
     models = sorted(
         per_model.values(),
@@ -244,8 +292,12 @@ def build_summary(rows: list[dict[str, Any]], source_command: str) -> dict[str, 
         totals.total_tokens += item.total_tokens
         totals.cost_usd += item.cost_usd
 
-    period_from = min(period_dates) if period_dates else None
-    period_to = max(period_dates) if period_dates else None
+    if parsed_period_dates:
+        period_from = min(parsed_period_dates).date().isoformat()
+        period_to = max(parsed_period_dates).date().isoformat()
+    else:
+        period_from = min(raw_period_dates) if raw_period_dates else None
+        period_to = max(raw_period_dates) if raw_period_dates else None
 
     return {
         "generatedAt": datetime.now(UTC).isoformat(timespec="seconds"),

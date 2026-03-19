@@ -1,0 +1,40 @@
+{
+  "daily": [
+    {
+      "date": "Feb 02, 2026",
+      "inputTokens": 2000,
+      "outputTokens": 100,
+      "cachedInputTokens": 500,
+      "reasoningOutputTokens": 30,
+      "totalTokens": 2600,
+      "costUSD": 0.26,
+      "models": {
+        "gpt-5.2-codex": {
+          "inputTokens": 2000,
+          "outputTokens": 100,
+          "cachedInputTokens": 500,
+          "reasoningOutputTokens": 30,
+          "totalTokens": 2600
+        }
+      }
+    },
+    {
+      "date": "Mar 19, 2026",
+      "inputTokens": 1500,
+      "outputTokens": 50,
+      "cachedInputTokens": 250,
+      "reasoningOutputTokens": 10,
+      "totalTokens": 1800,
+      "costUSD": 0.18,
+      "models": {
+        "gpt-5.2-codex": {
+          "inputTokens": 1500,
+          "outputTokens": 50,
+          "cachedInputTokens": 250,
+          "reasoningOutputTokens": 10,
+          "totalTokens": 1800
+        }
+      }
+    }
+  ]
+}
