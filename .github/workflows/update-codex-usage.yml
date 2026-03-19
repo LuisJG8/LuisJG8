@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 concurrency:
   group: update-codex-model-usage
   cancel-in-progress: false
@@ -16,6 +19,10 @@ concurrency:
 jobs:
   update-usage:
     runs-on: [self-hosted, codex-usage]
+    env:
+      HOME: ${{ runner.temp }}/gha-home
+      RUNNER_TOOL_CACHE: ${{ runner.temp }}/toolcache
+      AGENT_TOOLSDIRECTORY: ${{ runner.temp }}/toolcache
     outputs:
       proceed: ${{ steps.guard.outputs.proceed }}
     steps:
@@ -35,21 +42,25 @@ jobs:
             echo "proceed=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Prepare writable runner paths
+        if: steps.guard.outputs.proceed == 'true'
+        shell: bash
+        run: |
+          mkdir -p "$HOME"
+          mkdir -p "$RUNNER_TOOL_CACHE"
+
       - name: Check out repository
         if: steps.guard.outputs.proceed == 'true'
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Verify runtime dependencies
         if: steps.guard.outputs.proceed == 'true'
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Set up Python
-        if: steps.guard.outputs.proceed == 'true'
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+        shell: bash
+        run: |
+          node --version
+          npm --version
+          npx --version
+          python3 --version
 
       - name: Regenerate usage files
         if: steps.guard.outputs.proceed == 'true'
