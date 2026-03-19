@@ -90,6 +90,18 @@ class TestUpdateModelUsage(unittest.TestCase):
         self.assertIn("No usage data found yet", readme_block)
         self.assertEqual(summary["models"], [])
 
+    def test_readme_table_contains_input_output_total_columns(self):
+        payload = self.load_fixture("codex_daily_breakdown.json")
+        rows = self.mod.normalize_rows(payload)
+        summary = self.mod.build_summary(rows, "mock")
+        readme_block = self.mod.render_usage_block(summary)
+
+        self.assertIn(
+            "| Model | Input tokens | Output tokens | Total tokens | Estimated cost |",
+            readme_block,
+        )
+        self.assertIn("| `gpt-5` | 4,100 | 16,900 | 23,900 | $1.74 |", readme_block)
+
     def test_read_source_json_missing_npx(self):
         args = self.make_args()
         with mock.patch.object(self.mod.subprocess, "run", side_effect=FileNotFoundError):

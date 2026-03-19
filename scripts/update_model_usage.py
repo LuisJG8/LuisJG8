@@ -336,13 +336,13 @@ def render_usage_block(summary: dict[str, Any]) -> str:
         [
             f"Tracked **{format_int(int(totals['total_tokens']))}** tokens across **{len(models)}** model(s), estimated spend **{format_usd(float(totals['cost_usd']))}**.",
             "",
-            "| Model | Total tokens | Estimated cost |",
-            "| --- | ---: | ---: |",
+            "| Model | Input tokens | Output tokens | Total tokens | Estimated cost |",
+            "| --- | ---: | ---: | ---: | ---: |",
         ]
     )
     for item in models:
         lines.append(
-            f"| `{item['model']}` | {format_int(int(item['total_tokens']))} | {format_usd(float(item['cost_usd']))} |"
+            f"| `{item['model']}` | {format_int(int(item['input_tokens']))} | {format_int(int(item['output_tokens']))} | {format_int(int(item['total_tokens']))} | {format_usd(float(item['cost_usd']))} |"
         )
     return "\n".join(lines)
 
