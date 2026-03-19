@@ -32,6 +32,8 @@ _Coverage: Feb 02, 2026 to Mar 19, 2026_
 No usage data found yet from local Codex logs.
 <!-- MODEL_USAGE:END -->
 
+
+<!--
 ### Automation setup
 - Workflow: `.github/workflows/update-codex-usage.yml`
 - Runner labels required: `self-hosted`, `codex-usage`
@@ -42,5 +44,6 @@ No usage data found yet from local Codex logs.
 ```bash
 python3 scripts/update_model_usage.py
 ```
+-->
 
 ![My GitHub Game](game.gif)
