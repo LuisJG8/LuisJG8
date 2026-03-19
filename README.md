@@ -24,7 +24,12 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 This section is auto-generated from `npx @ccusage/codex@latest daily --json --breakdown` by a scheduled GitHub Action running on a self-hosted runner that has access to local Codex logs.
 
 <!-- MODEL_USAGE:START -->
-_Usage data will appear here after the first successful run._
+## Codex Model Spend
+
+_Last updated: 2026-03-19T23:40:48Z_
+_Coverage: Feb 02, 2026 to Mar 19, 2026_
+
+No usage data found yet from local Codex logs.
 <!-- MODEL_USAGE:END -->
 
 ### Automation setup

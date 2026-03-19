@@ -1,8 +1,8 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-03-19T23:40:48+00:00",
   "period": {
-    "from": null,
-    "to": null
+    "from": "Feb 02, 2026",
+    "to": "Mar 19, 2026"
   },
   "totals": {
     "model": "TOTAL",
@@ -16,5 +16,5 @@
   },
   "models": [],
   "sourceCommand": "npx --yes @ccusage/codex@latest daily --json --breakdown --offline",
-  "rowCount": 0
+  "rowCount": 42
 }
