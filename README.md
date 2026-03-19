@@ -20,8 +20,10 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 - Contributing to Metaflow and open-source tooling for reproducible Machine Learning systems
 - I like to give presentations about Machine Learning and Distributed Systems. [Snowflake ML Presentation](https://www.linkedin.com/feed/update/urn:li:activity:7409734941015502848/).
 
+<!--
 ## Daily Codex Token Spend
 This section is auto-generated from `npx @ccusage/codex@latest daily --json --breakdown` by a scheduled GitHub Action running on a self-hosted runner that has access to local Codex logs.
+-->
 
 <!-- MODEL_USAGE:START -->
 ## Codex Model Spend
