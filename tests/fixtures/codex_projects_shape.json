@@ -1,0 +1,36 @@
+{
+  "projects": {
+    "project-a": [
+      {
+        "date": "2026-03-18",
+        "breakdown": {
+          "gpt-5": {
+            "inputTokens": 500,
+            "outputTokens": 900,
+            "cacheCreationTokens": 0,
+            "cacheReadTokens": 100,
+            "totalTokens": 1500,
+            "costUSD": 0.09
+          }
+        }
+      }
+    ],
+    "project-b": {
+      "daily": [
+        {
+          "date": "2026-03-19",
+          "modelBreakdowns": {
+            "gpt-5-mini": {
+              "inputTokens": 100,
+              "outputTokens": 350,
+              "cacheCreationTokens": 0,
+              "cacheReadTokens": 50,
+              "totalTokens": 500,
+              "costUSD": 0.01
+            }
+          }
+        }
+      ]
+    }
+  }
+}

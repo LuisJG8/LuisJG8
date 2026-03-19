@@ -1,0 +1,42 @@
+{
+  "type": "daily",
+  "data": [
+    {
+      "date": "2026-03-15",
+      "breakdown": {
+        "gpt-5": {
+          "inputTokens": 3000,
+          "outputTokens": 12000,
+          "cacheCreationTokens": 200,
+          "cacheReadTokens": 2000,
+          "reasoningTokens": 1200,
+          "totalTokens": 17200,
+          "costUSD": 1.22
+        },
+        "gpt-4.1": {
+          "inputTokens": 800,
+          "outputTokens": 2500,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 600,
+          "reasoningTokens": 0,
+          "totalTokens": 3900,
+          "costUSD": 0.11
+        }
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "breakdown": {
+        "gpt-5": {
+          "inputTokens": 1100,
+          "outputTokens": 4900,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 700,
+          "reasoningTokens": 600,
+          "totalTokens": 6700,
+          "costUSD": 0.52
+        }
+      }
+    }
+  ]
+}
