@@ -20,9 +20,9 @@ jobs:
   update-usage:
     runs-on: [self-hosted, codex-usage]
     env:
-      HOME: ${{ runner.temp }}/gha-home
-      RUNNER_TOOL_CACHE: ${{ runner.temp }}/toolcache
-      AGENT_TOOLSDIRECTORY: ${{ runner.temp }}/toolcache
+      HOME: /tmp/gha-home
+      RUNNER_TOOL_CACHE: /tmp/toolcache
+      AGENT_TOOLSDIRECTORY: /tmp/toolcache
     outputs:
       proceed: ${{ steps.guard.outputs.proceed }}
     steps:
