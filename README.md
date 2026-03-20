@@ -20,7 +20,7 @@ This section is auto-generated from `npx @ccusage/codex@latest daily --json --br
 -->
 
 <!-- MODEL_USAGE:START -->
-## <img src="codex-color.svg" alt="Codex logo" width="20" /> Codex Model Spend
+## <img src="codex-color.svg" alt="Codex logo" width="30" /> Codex Model Spend
 
 _Last updated: 2026-03-20T01:05:28Z_
 _Coverage: 2026-02-02 to 2026-03-19_
