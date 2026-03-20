@@ -13,6 +13,7 @@ from typing import Any
 
 README_START = "<!-- MODEL_USAGE:START -->"
 README_END = "<!-- MODEL_USAGE:END -->"
+MAX_DISPLAY_MODELS = 3
 DEFAULT_COMMAND = [
     "npx",
     "--yes",
@@ -205,6 +206,10 @@ def serialize_model(item: ModelSummary) -> dict[str, Any]:
     return payload
 
 
+def is_codex_model(model_name: str) -> bool:
+    return "codex" in model_name.lower()
+
+
 def normalize_date(date_text: str) -> tuple[datetime | None, str]:
     date_text = date_text.strip()
     for fmt in ("%Y-%m-%d", "%b %d, %Y", "%B %d, %Y"):
@@ -313,10 +318,13 @@ def build_summary(rows: list[dict[str, Any]], source_command: str) -> dict[str, 
             model.total_tokens += item["total_tokens"]
             model.cost_usd += allocated_cost
 
-    models = sorted(
+    sorted_models = sorted(
         per_model.values(),
         key=lambda item: (-item.total_tokens, item.model.lower()),
     )
+    models = [
+        item for item in sorted_models if is_codex_model(item.model)
+    ][:MAX_DISPLAY_MODELS]
 
     totals = ModelSummary(model="TOTAL")
     for item in models:
@@ -369,11 +377,17 @@ def render_usage_block(summary: dict[str, Any]) -> str:
     lines.append("")
 
     if not models:
-        lines.append("No usage data found yet from local Codex logs.")
+        lines.append("No Codex model usage data found yet from local Codex logs.")
         return "\n".join(lines)
+
+    if len(models) == MAX_DISPLAY_MODELS:
+        scope_line = f"Showing top **{MAX_DISPLAY_MODELS}** Codex models by total tokens."
+    else:
+        scope_line = f"Showing top **{len(models)}** Codex model(s) by total tokens."
 
     lines.extend(
         [
+            scope_line,
             f"Tracked **{format_int(int(totals['total_tokens']))}** tokens across **{len(models)}** model(s), estimated spend **{format_usd(float(totals['cost_usd']))}**.",
             "",
             "| Model | Input tokens | Output tokens | Total tokens | Estimated cost |",

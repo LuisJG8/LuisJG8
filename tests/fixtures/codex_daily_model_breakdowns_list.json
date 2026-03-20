@@ -4,7 +4,7 @@
       "date": "2026-03-17",
       "modelBreakdowns": [
         {
-          "model": "gpt-5-mini",
+          "model": "gpt-5.3-codex",
           "inputTokens": 1000,
           "outputTokens": 2200,
           "cacheCreationTokens": 50,
@@ -13,7 +13,7 @@
           "costUSD": 0.07
         },
         {
-          "model": "gpt-4.1",
+          "model": "gpt-5.2-codex",
           "inputTokens": 400,
           "outputTokens": 1200,
           "cacheCreationTokens": 0,

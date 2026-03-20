@@ -4,7 +4,7 @@
       {
         "date": "2026-03-18",
         "breakdown": {
-          "gpt-5": {
+          "gpt-5.3-codex": {
             "inputTokens": 500,
             "outputTokens": 900,
             "cacheCreationTokens": 0,
@@ -20,7 +20,7 @@
         {
           "date": "2026-03-19",
           "modelBreakdowns": {
-            "gpt-5-mini": {
+            "gpt-5.2-codex": {
               "inputTokens": 100,
               "outputTokens": 350,
               "cacheCreationTokens": 0,

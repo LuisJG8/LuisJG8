@@ -55,7 +55,7 @@ class TestUpdateModelUsage(unittest.TestCase):
         self.assertEqual(summary["period"]["from"], "2026-03-15")
         self.assertEqual(summary["period"]["to"], "2026-03-16")
         self.assertEqual(summary["totals"]["total_tokens"], 27800)
-        self.assertEqual(summary["models"][0]["model"], "gpt-5")
+        self.assertEqual(summary["models"][0]["model"], "gpt-5.3-codex")
         self.assertEqual(summary["models"][0]["total_tokens"], 23900)
 
     def test_parser_supports_alternate_shapes(self):
@@ -63,13 +63,13 @@ class TestUpdateModelUsage(unittest.TestCase):
         rows = self.mod.normalize_rows(daily_payload)
         summary = self.mod.build_summary(rows, "mock")
         self.assertEqual(len(summary["models"]), 2)
-        self.assertEqual(summary["models"][0]["model"], "gpt-5-mini")
+        self.assertEqual(summary["models"][0]["model"], "gpt-5.3-codex")
 
         projects_payload = self.load_fixture("codex_projects_shape.json")
         rows = self.mod.normalize_rows(projects_payload)
         summary = self.mod.build_summary(rows, "mock")
         self.assertEqual(summary["totals"]["total_tokens"], 2000)
-        self.assertEqual(summary["models"][0]["model"], "gpt-5")
+        self.assertEqual(summary["models"][0]["model"], "gpt-5.3-codex")
 
     def test_parser_supports_models_dict_shape(self):
         payload = self.load_fixture("codex_daily_models_dict.json")
@@ -92,8 +92,8 @@ class TestUpdateModelUsage(unittest.TestCase):
                     "date": "2026-03-19",
                     "costUSD": 1.0,
                     "models": {
-                        "m1": {"inputTokens": 80, "totalTokens": 80},
-                        "m2": {"inputTokens": 20, "totalTokens": 20},
+                        "m1-codex": {"inputTokens": 80, "totalTokens": 80},
+                        "m2-codex": {"inputTokens": 20, "totalTokens": 20},
                     },
                 }
             ]
@@ -102,14 +102,36 @@ class TestUpdateModelUsage(unittest.TestCase):
         summary = self.mod.build_summary(rows, "mock")
 
         models = {item["model"]: item for item in summary["models"]}
-        self.assertAlmostEqual(models["m1"]["cost_usd"], 0.8, places=6)
-        self.assertAlmostEqual(models["m2"]["cost_usd"], 0.2, places=6)
+        self.assertAlmostEqual(models["m1-codex"]["cost_usd"], 0.8, places=6)
+        self.assertAlmostEqual(models["m2-codex"]["cost_usd"], 0.2, places=6)
         self.assertAlmostEqual(summary["totals"]["cost_usd"], 1.0, places=6)
+
+    def test_only_top_three_codex_models_are_displayed(self):
+        payload = {
+            "daily": [
+                {
+                    "date": "2026-03-19",
+                    "models": {
+                        "gpt-5.4": {"inputTokens": 9999, "totalTokens": 9999},
+                        "alpha-codex": {"inputTokens": 3000, "totalTokens": 3000},
+                        "beta-codex": {"inputTokens": 2500, "totalTokens": 2500},
+                        "gamma-codex": {"inputTokens": 2000, "totalTokens": 2000},
+                        "delta-codex": {"inputTokens": 1500, "totalTokens": 1500},
+                    },
+                }
+            ]
+        }
+        rows = self.mod.normalize_rows(payload)
+        summary = self.mod.build_summary(rows, "mock")
+
+        self.assertEqual([m["model"] for m in summary["models"]], ["alpha-codex", "beta-codex", "gamma-codex"])
+        self.assertNotIn("gpt-5.4", [m["model"] for m in summary["models"]])
+        self.assertEqual(summary["totals"]["total_tokens"], 7500)
 
     def test_no_data_message(self):
         summary = self.mod.build_summary([], "mock")
         readme_block = self.mod.render_usage_block(summary)
-        self.assertIn("No usage data found yet", readme_block)
+        self.assertIn("No Codex model usage data found yet", readme_block)
         self.assertEqual(summary["models"], [])
 
     def test_readme_table_contains_input_output_total_columns(self):
@@ -122,7 +144,7 @@ class TestUpdateModelUsage(unittest.TestCase):
             "| Model | Input tokens | Output tokens | Total tokens | Estimated cost |",
             readme_block,
         )
-        self.assertIn("| `gpt-5` | 4,100 | 16,900 | 23,900 | $1.74 |", readme_block)
+        self.assertIn("| `gpt-5.3-codex` | 4,100 | 16,900 | 23,900 | $1.74 |", readme_block)
 
     def test_read_source_json_missing_npx(self):
         args = self.make_args()

@@ -4,7 +4,7 @@
     {
       "date": "2026-03-15",
       "breakdown": {
-        "gpt-5": {
+        "gpt-5.3-codex": {
           "inputTokens": 3000,
           "outputTokens": 12000,
           "cacheCreationTokens": 200,
@@ -13,7 +13,7 @@
           "totalTokens": 17200,
           "costUSD": 1.22
         },
-        "gpt-4.1": {
+        "gpt-5.2-codex": {
           "inputTokens": 800,
           "outputTokens": 2500,
           "cacheCreationTokens": 0,
@@ -27,7 +27,7 @@
     {
       "date": "2026-03-16",
       "breakdown": {
-        "gpt-5": {
+        "gpt-5.3-codex": {
           "inputTokens": 1100,
           "outputTokens": 4900,
           "cacheCreationTokens": 0,
