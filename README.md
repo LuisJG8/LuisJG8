@@ -19,18 +19,20 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 This section is auto-generated from `npx @ccusage/codex@latest daily --json --breakdown` by a scheduled GitHub Action running on a self-hosted runner that has access to local Codex logs.
 -->
 
-<!-- MODEL_USAGE:START -->
-## <img src="codex-color.svg" alt="Codex logo" width="20" /> Codex Model Spend
+<br/>
 
-_Last updated: 2026-03-20T13:49:02Z_
+<!-- MODEL_USAGE:START -->
+<h2><img src="codex-color.svg" alt="Codex logo" width="20" align="absmiddle" />&nbsp;Codex Model Spend</h2>
+
+_Last updated: 2026-03-20T13:54:44Z_
 _Coverage: 2026-02-02 to 2026-03-20_
 
 Showing top **3** Codex models by total tokens.
-Tracked **962,804,661** tokens across **3** model(s), estimated spend **$447.33**.
+Tracked **973,189,954** tokens across **3** model(s), estimated spend **$450.55**.
 
 | Model | Input tokens | Output tokens | Total tokens | Estimated cost |
 | --- | ---: | ---: | ---: | ---: |
-| `gpt-5.3-codex` | 90,398,579 | 3,890,015 | 827,416,274 | $368.35 |
+| `gpt-5.3-codex` | 90,922,399 | 3,908,672 | 837,801,567 | $371.57 |
 | `gpt-5.2-codex` | 26,629,675 | 860,047 | 132,572,090 | $77.32 |
 | `gpt-5.3-codex-spark` | 127,201 | 29,640 | 2,816,297 | $1.66 |
 <!-- MODEL_USAGE:END -->
