@@ -18,15 +18,15 @@ This section is auto-generated from `npx @ccusage/codex@latest daily --json --br
 <!-- MODEL_USAGE:START -->
 <h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>
 
-_Last updated: 2026-03-20T15:29:39Z_
+_Last updated: 2026-03-20T22:44:24Z_
 _Coverage: 2026-02-02 to 2026-03-20_
 
 Showing top **3** Codex models by total tokens.
-Tracked **986,206,474** tokens across **3** model(s), estimated spend **$455.06**.
+Tracked **991,901,112** tokens across **3** model(s), estimated spend **$459.33**.
 
 | Model | Input tokens | Output tokens | Total tokens | Estimated cost |
 | --- | ---: | ---: | ---: | ---: |
-| `gpt-5.3-codex` | 91,485,091 | 3,925,764 | 850,818,087 | $376.08 |
+| `gpt-5.3-codex` | 92,643,519 | 3,951,382 | 856,512,725 | $380.35 |
 | `gpt-5.2-codex` | 26,629,675 | 860,047 | 132,572,090 | $77.32 |
 | `gpt-5.3-codex-spark` | 127,201 | 29,640 | 2,816,297 | $1.66 |
 <!-- MODEL_USAGE:END -->
