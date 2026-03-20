@@ -26,7 +26,7 @@ This section is auto-generated from `npx @ccusage/codex@latest daily --json --br
 -->
 
 <!-- MODEL_USAGE:START -->
-## <img src="https://cdn.simpleicons.org/openai/10A37F" alt="Codex logo" width="20" /> Codex Model Spend
+## <img src="codex-logo.svg" alt="Codex logo" width="20" /> Codex Model Spend
 
 _Last updated: 2026-03-20T00:07:05Z_
 _Coverage: 2026-02-02 to 2026-03-19_
