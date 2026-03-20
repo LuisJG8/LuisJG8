@@ -368,7 +368,7 @@ def render_usage_block(summary: dict[str, Any]) -> str:
     totals = summary["totals"]
 
     lines = [
-        '<h2><img src="codex-color.svg" alt="Codex logo" width="20" align="absmiddle" />&nbsp;Codex Model Spend</h2>',
+        '<h2><img src="codex-color.svg" alt="Codex logo" width="30" align="absmiddle" style="vertical-align:-0.18em;" />&nbsp;Codex Model Spend</h2>',
         "",
         f"_Last updated: {generated_at}_",
     ]
