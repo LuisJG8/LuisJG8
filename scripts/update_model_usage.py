@@ -323,7 +323,11 @@ def render_usage_block(summary: dict[str, Any]) -> str:
     models = summary["models"]
     totals = summary["totals"]
 
-    lines = ["## Codex Model Spend", "", f"_Last updated: {generated_at}_"]
+    lines = [
+        '## <img src="https://cdn.simpleicons.org/openai/10A37F" alt="Codex logo" width="20" /> Codex Model Spend',
+        "",
+        f"_Last updated: {generated_at}_",
+    ]
     if period.get("from") and period.get("to"):
         lines.append(f"_Coverage: {period['from']} to {period['to']}_")
     lines.append("")
