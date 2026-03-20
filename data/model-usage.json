@@ -1,69 +1,69 @@
 {
-  "generatedAt": "2026-03-20T00:58:29+00:00",
+  "generatedAt": "2026-03-20T00:59:01+00:00",
   "period": {
     "from": "2026-02-02",
     "to": "2026-03-19"
   },
   "totals": {
     "model": "TOTAL",
-    "input_tokens": 1064039481,
-    "output_tokens": 5308228,
+    "input_tokens": 164438953,
+    "output_tokens": 5308358,
     "cache_creation_tokens": 0,
-    "cache_read_tokens": 899600640,
+    "cache_read_tokens": 899745024,
     "reasoning_tokens": 2952301,
-    "total_tokens": 1069347709,
-    "cost_usd": 376.982264
+    "total_tokens": 1069492335,
+    "cost_usd": 560.85694
   },
   "models": [
     {
       "model": "gpt-5.3-codex",
-      "input_tokens": 810836930,
-      "output_tokens": 3861205,
+      "input_tokens": 89898546,
+      "output_tokens": 3861335,
       "cache_creation_tokens": 0,
-      "cache_read_tokens": 720938496,
+      "cache_read_tokens": 721082880,
       "reasoning_tokens": 2185499,
-      "total_tokens": 814698135,
-      "cost_usd": 264.311323
+      "total_tokens": 814842761,
+      "cost_usd": 362.990537
     },
     {
       "model": "gpt-5.2-codex",
-      "input_tokens": 131712043,
+      "input_tokens": 26629675,
       "output_tokens": 860047,
       "cache_creation_tokens": 0,
       "cache_read_tokens": 105082368,
       "reasoning_tokens": 514364,
       "total_tokens": 132572090,
-      "cost_usd": 36.737832
+      "cost_usd": 77.323392
     },
     {
       "model": "gpt-5.4",
-      "input_tokens": 118447128,
+      "input_tokens": 47693976,
       "output_tokens": 554546,
       "cache_creation_tokens": 0,
       "cache_read_tokens": 70753152,
       "reasoning_tokens": 230227,
       "total_tokens": 119001674,
-      "cost_usd": 75.933109
+      "cost_usd": 118.686807
     },
     {
       "model": "gpt-5.3-codex-spark",
-      "input_tokens": 2786657,
+      "input_tokens": 127201,
       "output_tokens": 29640,
       "cache_creation_tokens": 0,
       "cache_read_tokens": 2659456,
       "reasoning_tokens": 20358,
       "total_tokens": 2816297,
-      "cost_usd": 0.0
+      "cost_usd": 1.657918
     },
     {
       "model": "gpt-5.2",
-      "input_tokens": 256723,
+      "input_tokens": 89555,
       "output_tokens": 2790,
       "cache_creation_tokens": 0,
       "cache_read_tokens": 167168,
       "reasoning_tokens": 1853,
       "total_tokens": 259513,
-      "cost_usd": 0.0
+      "cost_usd": 0.198286
     }
   ],
   "sourceCommand": "npx --yes @ccusage/codex@latest daily --json --breakdown --offline",

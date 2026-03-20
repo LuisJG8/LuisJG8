@@ -80,9 +80,31 @@ class TestUpdateModelUsage(unittest.TestCase):
         self.assertEqual(summary["period"]["to"], "2026-03-19")
         self.assertEqual(len(summary["models"]), 1)
         self.assertEqual(summary["models"][0]["model"], "gpt-5.2-codex")
+        self.assertEqual(summary["models"][0]["input_tokens"], 3500 - 750)
         self.assertEqual(summary["models"][0]["cache_read_tokens"], 750)
         self.assertEqual(summary["models"][0]["reasoning_tokens"], 40)
         self.assertEqual(summary["models"][0]["cost_usd"], 0.44)
+
+    def test_row_cost_distributed_when_model_cost_missing(self):
+        payload = {
+            "daily": [
+                {
+                    "date": "2026-03-19",
+                    "costUSD": 1.0,
+                    "models": {
+                        "m1": {"inputTokens": 80, "totalTokens": 80},
+                        "m2": {"inputTokens": 20, "totalTokens": 20},
+                    },
+                }
+            ]
+        }
+        rows = self.mod.normalize_rows(payload)
+        summary = self.mod.build_summary(rows, "mock")
+
+        models = {item["model"]: item for item in summary["models"]}
+        self.assertAlmostEqual(models["m1"]["cost_usd"], 0.8, places=6)
+        self.assertAlmostEqual(models["m2"]["cost_usd"], 0.2, places=6)
+        self.assertAlmostEqual(summary["totals"]["cost_usd"], 1.0, places=6)
 
     def test_no_data_message(self):
         summary = self.mod.build_summary([], "mock")

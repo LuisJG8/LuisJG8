@@ -231,23 +231,27 @@ def build_summary(rows: list[dict[str, Any]], source_command: str) -> dict[str, 
 
         model_rows = iter_model_breakdowns(row)
         row_cost = get_number(row, "costUSD", "totalCost", "cost_usd")
+        prepared_models: list[dict[str, Any]] = []
 
         for model_name, stats in model_rows:
             model = per_model.setdefault(model_name, ModelSummary(model=model_name))
-            model.input_tokens += int(get_number(stats, "inputTokens", "input_tokens"))
-            model.output_tokens += int(get_number(stats, "outputTokens", "output_tokens"))
-            model.cache_creation_tokens += int(
+            input_tokens = int(get_number(stats, "inputTokens", "input_tokens"))
+            output_tokens = int(get_number(stats, "outputTokens", "output_tokens"))
+            cache_creation_tokens = int(
                 get_number(stats, "cacheCreationTokens", "cache_creation_tokens")
             )
-            model.cache_read_tokens += int(
-                get_number(
-                    stats,
-                    "cacheReadTokens",
-                    "cachedInputTokens",
-                    "cache_read_tokens",
-                )
+            cache_read_tokens = int(
+                get_number(stats, "cacheReadTokens", "cache_read_tokens")
             )
-            model.reasoning_tokens += int(
+            cached_input_tokens = int(get_number(stats, "cachedInputTokens"))
+
+            # In Codex daily models dict format, inputTokens includes cachedInputTokens.
+            if cache_read_tokens == 0 and cached_input_tokens > 0:
+                cache_read_tokens = cached_input_tokens
+                if input_tokens >= cached_input_tokens:
+                    input_tokens -= cached_input_tokens
+
+            reasoning_tokens = int(
                 get_number(
                     stats,
                     "reasoningTokens",
@@ -259,23 +263,55 @@ def build_summary(rows: list[dict[str, Any]], source_command: str) -> dict[str, 
             total = int(get_number(stats, "totalTokens", "total_tokens"))
             if total == 0:
                 total = (
-                    int(get_number(stats, "inputTokens", "input_tokens"))
-                    + int(get_number(stats, "outputTokens", "output_tokens"))
-                    + int(get_number(stats, "cacheCreationTokens", "cache_creation_tokens"))
-                    + int(
-                        get_number(
-                            stats,
-                            "cacheReadTokens",
-                            "cachedInputTokens",
-                            "cache_read_tokens",
-                        )
-                    )
+                    input_tokens
+                    + output_tokens
+                    + cache_creation_tokens
+                    + cache_read_tokens
                 )
-            model.total_tokens += total
             stats_cost = get_number(stats, "costUSD", "totalCost", "cost_usd")
-            if stats_cost == 0 and row_cost and len(model_rows) == 1:
-                stats_cost = row_cost
-            model.cost_usd += stats_cost
+            prepared_models.append(
+                {
+                    "summary": model,
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens,
+                    "cache_creation_tokens": cache_creation_tokens,
+                    "cache_read_tokens": cache_read_tokens,
+                    "reasoning_tokens": reasoning_tokens,
+                    "total_tokens": total,
+                    "stats_cost": stats_cost,
+                }
+            )
+
+        if not prepared_models:
+            continue
+
+        sum_stats_cost = sum(item["stats_cost"] for item in prepared_models)
+        allocated_costs: list[float] = []
+        if row_cost > 0 and sum_stats_cost == 0:
+            if len(prepared_models) == 1:
+                allocated_costs = [row_cost]
+            else:
+                weight_total = sum(item["total_tokens"] for item in prepared_models)
+                if weight_total > 0:
+                    allocated_costs = [
+                        row_cost * (item["total_tokens"] / weight_total)
+                        for item in prepared_models
+                    ]
+                else:
+                    equal_cost = row_cost / len(prepared_models)
+                    allocated_costs = [equal_cost for _ in prepared_models]
+        else:
+            allocated_costs = [item["stats_cost"] for item in prepared_models]
+
+        for item, allocated_cost in zip(prepared_models, allocated_costs, strict=True):
+            model = item["summary"]
+            model.input_tokens += item["input_tokens"]
+            model.output_tokens += item["output_tokens"]
+            model.cache_creation_tokens += item["cache_creation_tokens"]
+            model.cache_read_tokens += item["cache_read_tokens"]
+            model.reasoning_tokens += item["reasoning_tokens"]
+            model.total_tokens += item["total_tokens"]
+            model.cost_usd += allocated_cost
 
     models = sorted(
         per_model.values(),
