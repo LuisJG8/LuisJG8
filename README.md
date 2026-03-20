@@ -9,12 +9,6 @@ ML & Software Engineer focused on building reliable, scalable systems and practi
 - Active contributor and user of Metaflow; enjoy improving ML workflows and reproducibility.
 
 
-## Professional snapshot
-- Experience as a Backend Software Engineer and Data Engineer (industry and internship experience), working with large-scale data ingestion, transformation, and model-ready datasets.
-- Comfortable designing and operating solutions on cloud platforms and modern data warehouses.
-
-
-
 ## Interests
 - Building robust data platforms for model-driven products
 - Contributing to Metaflow and open-source tooling for reproducible Machine Learning systems
