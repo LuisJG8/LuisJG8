@@ -1,8 +1,5 @@
 # Hi, I’m Luis 👋
 
-ML & Software Engineer focused on building reliable, scalable systems and practical ML solutions. I enjoy turning messy data into production-ready pipelines and deploying models and services that deliver measurable value.
-
-
 ## About
 - Passionate about backend systems, software engineering, and machine learning.
 - Strong background building ETL pipelines, APIs, distributed task systems, and data platforms designed for ML.
