@@ -24,11 +24,11 @@ _Coverage: 2026-02-02 to 2026-03-20_
 Showing top **3** Codex models by total tokens.
 Tracked **991,901,112** tokens across **3** model(s).
 
-| Model | Input tokens | Output tokens | Total tokens |
-| --- | ---: | ---: | ---: |
-| `gpt-5.3-codex` | 92,643,519 | 3,951,382 | 856,512,725 |
-| `gpt-5.2-codex` | 26,629,675 | 860,047 | 132,572,090 |
-| `gpt-5.3-codex-spark` | 127,201 | 29,640 | 2,816,297 |
+| Model | Input tokens | Output tokens | Cache read tokens | Total tokens |
+| --- | ---: | ---: | ---: | ---: |
+| `gpt-5.3-codex` | 92,643,519 | 3,951,382 | 759,917,824 | 856,512,725 |
+| `gpt-5.2-codex` | 26,629,675 | 860,047 | 105,082,368 | 132,572,090 |
+| `gpt-5.3-codex-spark` | 127,201 | 29,640 | 2,659,456 | 2,816,297 |
 <!-- MODEL_USAGE:END -->
 
 

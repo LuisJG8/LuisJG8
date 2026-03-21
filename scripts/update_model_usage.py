@@ -386,13 +386,13 @@ def render_usage_block(summary: dict[str, Any]) -> str:
             scope_line,
             f"Tracked **{format_int(int(totals['total_tokens']))}** tokens across **{len(models)}** model(s).",
             "",
-            "| Model | Input tokens | Output tokens | Total tokens |",
-            "| --- | ---: | ---: | ---: |",
+            "| Model | Input tokens | Output tokens | Cache read tokens | Total tokens |",
+            "| --- | ---: | ---: | ---: | ---: |",
         ]
     )
     for item in models:
         lines.append(
-            f"| `{item['model']}` | {format_int(int(item['input_tokens']))} | {format_int(int(item['output_tokens']))} | {format_int(int(item['total_tokens']))} |"
+            f"| `{item['model']}` | {format_int(int(item['input_tokens']))} | {format_int(int(item['output_tokens']))} | {format_int(int(item['cache_read_tokens']))} | {format_int(int(item['total_tokens']))} |"
         )
     return "\n".join(lines)
 
