@@ -141,10 +141,11 @@ class TestUpdateModelUsage(unittest.TestCase):
         readme_block = self.mod.render_usage_block(summary)
 
         self.assertIn(
-            "| Model | Input tokens | Output tokens | Total tokens | Estimated cost |",
+            "| Model | Input tokens | Output tokens | Total tokens |",
             readme_block,
         )
-        self.assertIn("| `gpt-5.3-codex` | 4,100 | 16,900 | 23,900 | $1.74 |", readme_block)
+        self.assertIn("| `gpt-5.3-codex` | 4,100 | 16,900 | 23,900 |", readme_block)
+        self.assertNotIn("$", readme_block)
 
     def test_read_source_json_missing_npx(self):
         args = self.make_args()

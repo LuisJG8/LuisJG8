@@ -357,10 +357,6 @@ def format_int(value: int) -> str:
     return f"{value:,}"
 
 
-def format_usd(value: float) -> str:
-    return f"${value:,.2f}"
-
-
 def render_usage_block(summary: dict[str, Any]) -> str:
     generated_at = str(summary["generatedAt"]).replace("+00:00", "Z")
     period = summary["period"]
@@ -388,15 +384,15 @@ def render_usage_block(summary: dict[str, Any]) -> str:
     lines.extend(
         [
             scope_line,
-            f"Tracked **{format_int(int(totals['total_tokens']))}** tokens across **{len(models)}** model(s), estimated spend **{format_usd(float(totals['cost_usd']))}**.",
+            f"Tracked **{format_int(int(totals['total_tokens']))}** tokens across **{len(models)}** model(s).",
             "",
-            "| Model | Input tokens | Output tokens | Total tokens | Estimated cost |",
-            "| --- | ---: | ---: | ---: | ---: |",
+            "| Model | Input tokens | Output tokens | Total tokens |",
+            "| --- | ---: | ---: | ---: |",
         ]
     )
     for item in models:
         lines.append(
-            f"| `{item['model']}` | {format_int(int(item['input_tokens']))} | {format_int(int(item['output_tokens']))} | {format_int(int(item['total_tokens']))} | {format_usd(float(item['cost_usd']))} |"
+            f"| `{item['model']}` | {format_int(int(item['input_tokens']))} | {format_int(int(item['output_tokens']))} | {format_int(int(item['total_tokens']))} |"
         )
     return "\n".join(lines)
 
