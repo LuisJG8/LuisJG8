@@ -18,8 +18,10 @@ This section is auto-generated from `npx @ccusage/codex@latest daily --json --br
 <!-- MODEL_USAGE:START -->
 <h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>
 
+<!--
 _Last updated: 2026-03-20T22:44:24Z_
 _Coverage: 2026-02-02 to 2026-03-20_
+-->
 
 Showing top **3** Codex models by total tokens.
 Tracked **991,901,112** tokens across **3** model(s).
