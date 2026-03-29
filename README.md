@@ -17,22 +17,17 @@ This section is auto-generated from `npx @ccusage/codex@latest daily --json --br
 
 
 <!-- MODEL_USAGE:START -->
-<!--
 <h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>
--->
 
-<!--
-_Last updated: 2026-03-20T22:44:24Z_
-_Coverage: 2026-02-02 to 2026-03-20_
--->
+_Last updated: 2026-03-29T16:50:14Z_
+_Coverage: 2026-02-02 to 2026-03-29_
 
-<!--
 Showing top **3** Codex models by total tokens.
-Tracked **991,901,112** tokens across **3** model(s).
+Tracked **1,059,631,971** tokens across **3** model(s).
 
 | Model | Input tokens | Output tokens | Cache read tokens | Total tokens |
 | --- | ---: | ---: | ---: | ---: |
-| `gpt-5.3-codex` | 92,643,519 | 3,951,382 | 759,917,824 | 856,512,725 |
+| `gpt-5.3-codex` | 103,301,878 | 4,478,602 | 816,463,104 | 924,243,584 |
 | `gpt-5.2-codex` | 26,629,675 | 860,047 | 105,082,368 | 132,572,090 |
 | `gpt-5.3-codex-spark` | 127,201 | 29,640 | 2,659,456 | 2,816,297 |
 <!-- MODEL_USAGE:END -->
