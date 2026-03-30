@@ -45,5 +45,5 @@ Tracked **1,059,631,971** tokens across **3** model(s).
 python3 scripts/update_model_usage.py
 ```
 -->
-test
+
 ![My GitHub Game](game.gif)
