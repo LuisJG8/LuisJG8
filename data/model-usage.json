@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-03-29T16:50:14+00:00",
+  "generatedAt": "2026-04-04T16:51:27+00:00",
   "period": {
     "from": "2026-02-02",
-    "to": "2026-03-29"
+    "to": "2026-04-04"
   },
   "totals": {
     "model": "TOTAL",
-    "input_tokens": 130058754,
-    "output_tokens": 5368289,
+    "input_tokens": 139786619,
+    "output_tokens": 5690585,
     "cache_creation_tokens": 0,
-    "cache_read_tokens": 924204928,
-    "reasoning_tokens": 3072055,
-    "total_tokens": 1059631971,
-    "cost_usd": 508.547642
+    "cache_read_tokens": 981238912,
+    "reasoning_tokens": 3273461,
+    "total_tokens": 1126716116,
+    "cost_usd": 546.561825
   },
   "models": [
     {
       "model": "gpt-5.3-codex",
-      "input_tokens": 103301878,
-      "output_tokens": 4478602,
+      "input_tokens": 113029743,
+      "output_tokens": 4800898,
       "cache_creation_tokens": 0,
-      "cache_read_tokens": 816463104,
-      "reasoning_tokens": 2537333,
-      "total_tokens": 924243584,
-      "cost_usd": 429.566332
+      "cache_read_tokens": 873497088,
+      "reasoning_tokens": 2738739,
+      "total_tokens": 991327729,
+      "cost_usd": 467.580515
     },
     {
       "model": "gpt-5.2-codex",
@@ -47,5 +47,5 @@
     }
   ],
   "sourceCommand": "npx --yes @ccusage/codex@latest daily --json --breakdown --offline",
-  "rowCount": 52
+  "rowCount": 55
 }
