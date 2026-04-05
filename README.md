@@ -17,7 +17,7 @@ This section is auto-generated from `npx @ccusage/codex@latest daily --json --br
 
 
 <!-- MODEL_USAGE:START -->
-<h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>
+<!-- <h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>
 
 _Last updated: 2026-04-04T16:51:27Z_
 _Coverage: 2026-02-02 to 2026-04-04_
@@ -30,7 +30,7 @@ Tracked **1,126,716,116** tokens across **3** model(s).
 | `gpt-5.3-codex` | 113,029,743 | 4,800,898 | 873,497,088 | 991,327,729 |
 | `gpt-5.2-codex` | 26,629,675 | 860,047 | 105,082,368 | 132,572,090 |
 | `gpt-5.3-codex-spark` | 127,201 | 29,640 | 2,659,456 | 2,816,297 |
-<!-- MODEL_USAGE:END --> -->
+<!-- MODEL_USAGE:END --> --> -->
 
 
 <!--
