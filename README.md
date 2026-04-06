@@ -3,7 +3,7 @@
 I am passionate about backend systems, software engineering, and machine learning. I have a strong background building ETL pipelines, APIs, distributed task systems, and data platforms designed for ML. 
 
 ## Interests
-- Giving presentations about Machine Learning and Distributed Systems (Snowflake)[https://usergroups.snowflake.com/miami/]
+- Giving presentations about Machine Learning and Distributed Systems [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 - Writing in my blog 
 - Reading books, blogs and newsletters 
 
