@@ -7,14 +7,14 @@ I am passionate about backend systems, software engineering, and machine learnin
 - Writing in my blog 
 - Reading books, blogs and newsletters
 
-## 🚀 Currently building
+## 🚀 Currently Building
 - Github ETL Pipeline
 - Machine Learning community focused on engineering, not hype
 
 ## 💻 Open Source
 - Contributing to [Metaflow](https://github.com/Netflix/metaflow)
 
-## 🤝🏻 Community Member Of
+## 🤝🏻 Community
 - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 
 
