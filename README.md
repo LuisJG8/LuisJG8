@@ -3,7 +3,7 @@
 I am passionate about backend systems, software engineering, and machine learning. I have a strong background building ETL pipelines, APIs and ML models. 
 
 ## 👨🏻‍💻 Interests
-- Giving presentations about Machine Learning and Distributed Systems 
+- Giving presentations about Machine Learning and Distributed Systems [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 - Writing in my blog 
 - Reading books, blogs and newsletters
 
@@ -13,9 +13,6 @@ I am passionate about backend systems, software engineering, and machine learnin
 
 ## 💻 Open Source
 - Contributing to [Metaflow](https://github.com/Netflix/metaflow)
-
-## 🤝🏻 Community
-- [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 
 
 ![My GitHub Game](game.gif)
