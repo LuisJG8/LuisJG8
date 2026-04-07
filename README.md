@@ -4,7 +4,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 ## 👨🏻‍💻 Interests
 - Giving presentations about Machine Learning and Distributed Systems [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
-- Writing in my blog 
+- Writing in my [blog](https://luis-gonzalez.bearblog.dev/)
 - Reading books, blogs and newsletters
 
 ## 🚀 Currently Building
