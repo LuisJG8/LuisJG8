@@ -3,7 +3,7 @@
 Software/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems.
 
 ## 👨🏻‍💻 Interests
-- Giving presentations about Machine Learning and Distributed Systems [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
+- Giving presentations about Machine Learning and Distributed Systems 
 - Writing in my [blog](https://luis-gonzalez.bearblog.dev/)
 - Reading books, blogs and newsletters
 
@@ -14,5 +14,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 ## 💻 Open Source
 - Contributing to [Metaflow](https://github.com/Netflix/metaflow)
 
+## 🤝 Community
+- [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 
 ![My GitHub Game](game.gif)
