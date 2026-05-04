@@ -358,16 +358,11 @@ def format_int(value: int) -> str:
 
 
 def render_usage_block(summary: dict[str, Any]) -> str:
-    period = summary["period"]
     models = summary["models"]
-    totals = summary["totals"]
 
     lines = [
         '<h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>',
     ]
-    if period.get("from") and period.get("to"):
-        lines.append("")
-        lines.append(f"_Coverage: {period['from']} to {period['to']}_")
     lines.append("")
 
     if not models:
@@ -376,8 +371,6 @@ def render_usage_block(summary: dict[str, Any]) -> str:
 
     lines.extend(
         [
-            f"Tracked **{format_int(int(totals['total_tokens']))}** tokens across **{len(models)}** model(s).",
-            "",
             "| Model | Input tokens | Output tokens | Cache read tokens | Total tokens |",
             "| --- | ---: | ---: | ---: | ---: |",
         ]

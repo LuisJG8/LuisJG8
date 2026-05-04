@@ -142,6 +142,8 @@ class TestUpdateModelUsage(unittest.TestCase):
 
         self.assertNotIn("Last updated:", readme_block)
         self.assertNotIn("Showing top", readme_block)
+        self.assertNotIn("Coverage:", readme_block)
+        self.assertNotIn("Tracked **", readme_block)
         self.assertIn(
             "| Model | Input tokens | Output tokens | Cache read tokens | Total tokens |",
             readme_block,

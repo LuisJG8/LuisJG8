@@ -22,10 +22,6 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 <!-- MODEL_USAGE:START -->
 <h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>
 
-_Coverage: 2026-02-02 to 2026-05-04_
-
-Tracked **1,393,798,195** tokens across **3** model(s).
-
 | Model | Input tokens | Output tokens | Cache read tokens | Total tokens |
 | --- | ---: | ---: | ---: | ---: |
 | `gpt-5.3-codex` | 127,270,516 | 5,819,316 | 1,101,036,032 | 1,234,125,864 |
