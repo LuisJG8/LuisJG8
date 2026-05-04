@@ -358,17 +358,15 @@ def format_int(value: int) -> str:
 
 
 def render_usage_block(summary: dict[str, Any]) -> str:
-    generated_at = str(summary["generatedAt"]).replace("+00:00", "Z")
     period = summary["period"]
     models = summary["models"]
     totals = summary["totals"]
 
     lines = [
         '<h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>',
-        "",
-        f"_Last updated: {generated_at}_",
     ]
     if period.get("from") and period.get("to"):
+        lines.append("")
         lines.append(f"_Coverage: {period['from']} to {period['to']}_")
     lines.append("")
 
@@ -376,14 +374,8 @@ def render_usage_block(summary: dict[str, Any]) -> str:
         lines.append("No Codex model usage data found yet from local Codex logs.")
         return "\n".join(lines)
 
-    if len(models) == MAX_DISPLAY_MODELS:
-        scope_line = f"Showing top **{MAX_DISPLAY_MODELS}** Codex models by total tokens."
-    else:
-        scope_line = f"Showing top **{len(models)}** Codex model(s) by total tokens."
-
     lines.extend(
         [
-            scope_line,
             f"Tracked **{format_int(int(totals['total_tokens']))}** tokens across **{len(models)}** model(s).",
             "",
             "| Model | Input tokens | Output tokens | Cache read tokens | Total tokens |",

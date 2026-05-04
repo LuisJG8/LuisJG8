@@ -140,6 +140,8 @@ class TestUpdateModelUsage(unittest.TestCase):
         summary = self.mod.build_summary(rows, "mock")
         readme_block = self.mod.render_usage_block(summary)
 
+        self.assertNotIn("Last updated:", readme_block)
+        self.assertNotIn("Showing top", readme_block)
         self.assertIn(
             "| Model | Input tokens | Output tokens | Cache read tokens | Total tokens |",
             readme_block,
