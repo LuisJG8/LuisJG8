@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-05-04T10:53:25+00:00",
+  "generatedAt": "2026-05-04T11:02:50+00:00",
   "period": {
     "from": "2026-02-02",
     "to": "2026-05-04"
   },
   "totals": {
     "model": "TOTAL",
-    "input_tokens": 156740775,
-    "output_tokens": 6692962,
+    "input_tokens": 156833677,
+    "output_tokens": 6702630,
     "cache_creation_tokens": 0,
-    "cache_read_tokens": 1227659520,
-    "reasoning_tokens": 3699553,
-    "total_tokens": 1391093257,
-    "cost_usd": 609.430866
+    "cache_read_tokens": 1230261888,
+    "reasoning_tokens": 3704691,
+    "total_tokens": 1393798195,
+    "cost_usd": 610.184211
   },
   "models": [
     {
       "model": "gpt-5.3-codex",
-      "input_tokens": 127177614,
-      "output_tokens": 5809648,
+      "input_tokens": 127270516,
+      "output_tokens": 5819316,
       "cache_creation_tokens": 0,
-      "cache_read_tokens": 1098433664,
-      "reasoning_tokens": 3179136,
-      "total_tokens": 1231420926,
-      "cost_usd": 525.830921
+      "cache_read_tokens": 1101036032,
+      "reasoning_tokens": 3184274,
+      "total_tokens": 1234125864,
+      "cost_usd": 526.584266
     },
     {
       "model": "gpt-5.2-codex",

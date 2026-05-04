@@ -24,11 +24,11 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 _Coverage: 2026-02-02 to 2026-05-04_
 
-Tracked **1,391,093,257** tokens across **3** model(s).
+Tracked **1,393,798,195** tokens across **3** model(s).
 
 | Model | Input tokens | Output tokens | Cache read tokens | Total tokens |
 | --- | ---: | ---: | ---: | ---: |
-| `gpt-5.3-codex` | 127,177,614 | 5,809,648 | 1,098,433,664 | 1,231,420,926 |
+| `gpt-5.3-codex` | 127,270,516 | 5,819,316 | 1,101,036,032 | 1,234,125,864 |
 | `gpt-5.2-codex` | 26,629,675 | 860,047 | 105,082,368 | 132,572,090 |
 | `codex-auto-review` | 2,933,486 | 23,267 | 24,143,488 | 27,100,241 |
 <!-- MODEL_USAGE:END -->
