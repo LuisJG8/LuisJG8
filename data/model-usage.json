@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-05-04T11:06:51+00:00",
+  "generatedAt": "2026-05-11T23:46:32+00:00",
   "period": {
     "from": "2026-02-02",
-    "to": "2026-05-04"
+    "to": "2026-05-11"
   },
   "totals": {
     "model": "TOTAL",
-    "input_tokens": 156870657,
-    "output_tokens": 6706665,
+    "input_tokens": 173728675,
+    "output_tokens": 7397114,
     "cache_creation_tokens": 0,
-    "cache_read_tokens": 1232227840,
-    "reasoning_tokens": 3705853,
-    "total_tokens": 1395805162,
-    "cost_usd": 610.649458
+    "cache_read_tokens": 1404570880,
+    "reasoning_tokens": 4028166,
+    "total_tokens": 1585696669,
+    "cost_usd": 673.96806
   },
   "models": [
     {
       "model": "gpt-5.3-codex",
-      "input_tokens": 127307496,
-      "output_tokens": 5823351,
+      "input_tokens": 142213099,
+      "output_tokens": 6502127,
       "cache_creation_tokens": 0,
-      "cache_read_tokens": 1103001984,
-      "reasoning_tokens": 3185436,
-      "total_tokens": 1236132831,
-      "cost_usd": 527.049513
+      "cache_read_tokens": 1269835008,
+      "reasoning_tokens": 3503514,
+      "total_tokens": 1418550234,
+      "cost_usd": 588.036669
     },
     {
       "model": "gpt-5.2-codex",
@@ -37,15 +37,15 @@
     },
     {
       "model": "codex-auto-review",
-      "input_tokens": 2933486,
-      "output_tokens": 23267,
+      "input_tokens": 4885901,
+      "output_tokens": 34940,
       "cache_creation_tokens": 0,
-      "cache_read_tokens": 24143488,
-      "reasoning_tokens": 6053,
-      "total_tokens": 27100241,
-      "cost_usd": 6.276553
+      "cache_read_tokens": 29653504,
+      "reasoning_tokens": 10288,
+      "total_tokens": 34574345,
+      "cost_usd": 8.607999
     }
   ],
   "sourceCommand": "npx --yes @ccusage/codex@latest daily --json --breakdown --offline",
-  "rowCount": 67
+  "rowCount": 74
 }

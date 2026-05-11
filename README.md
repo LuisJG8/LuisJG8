@@ -24,7 +24,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 | Model | Input tokens | Output tokens | Cache read tokens | Total tokens |
 | --- | ---: | ---: | ---: | ---: |
-| `gpt-5.3-codex` | 127,307,496 | 5,823,351 | 1,103,001,984 | 1,236,132,831 |
+| `gpt-5.3-codex` | 142,213,099 | 6,502,127 | 1,269,835,008 | 1,418,550,234 |
 | `gpt-5.2-codex` | 26,629,675 | 860,047 | 105,082,368 | 132,572,090 |
-| `codex-auto-review` | 2,933,486 | 23,267 | 24,143,488 | 27,100,241 |
+| `codex-auto-review` | 4,885,901 | 34,940 | 29,653,504 | 34,574,345 |
 <!-- MODEL_USAGE:END -->
