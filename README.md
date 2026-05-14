@@ -1,21 +1,18 @@
 # Hi, I’m Luis 👋
 
-Software/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems.
-
-## 👨🏻‍💻 Interests
-- Giving presentations about Machine Learning and Distributed Systems 
-- Writing in my [blog](https://luis-gonzalez.bearblog.dev/)
-- Reading books, blogs and newsletters
+Software/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. I am also a Codex Ambassador in the Miami area.
 
 ## 🚀 Currently Building
 - Github ETL Pipeline
-- Machine Learning community focused on engineering, not hype
+- The Machine Learning Engineering Network community, centered on real-world engineering practices
+- Web apps with Codex
 
 ## 💻 Open Source
 - Contributing to [Metaflow](https://github.com/Netflix/metaflow)
 
 ## 🤝 Community
 - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
+- [OpenAI/Codex Developers](https://developers.openai.com/codex)
 
 ![My GitHub Game](game.gif)
 
