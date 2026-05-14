@@ -19,7 +19,8 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 ![My GitHub Game](game.gif)
 
-<!-- MODEL_USAGE:START -->
+<!--
+
 <h2><sub><img src="codex-color.svg" alt="Codex logo" width="30" /></sub>&nbsp;Codex Model Spend</h2>
 
 | Model | Input tokens | Output tokens | Cache read tokens | Total tokens |
@@ -27,4 +28,5 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 | `gpt-5.3-codex` | 142,213,099 | 6,502,127 | 1,269,835,008 | 1,418,550,234 |
 | `gpt-5.2-codex` | 26,629,675 | 860,047 | 105,082,368 | 132,572,090 |
 | `codex-auto-review` | 4,885,901 | 34,940 | 29,653,504 | 34,574,345 |
-<!-- MODEL_USAGE:END -->
+
+-->
