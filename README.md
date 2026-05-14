@@ -12,7 +12,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 ## 🤝 Community
 - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
-- [Codex | OpenAI Developers](https://developers.openai.com/codex)
+- [Codex | OpenAI Developers](http://community.openai.com/u/luisjg)
 - [Machine Learning Engineering Network](https://discord.gg/dzZTyfvJg)
 
 ![My GitHub Game](game.gif)
