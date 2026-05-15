@@ -7,13 +7,13 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 - The Machine Learning Engineering Network community, centered on real-world engineering practices
 - Web apps with Codex
 
-## 💻 Open Source
-- Contributing to [Metaflow](https://github.com/Netflix/metaflow)
-
 ## 🤝 Community
 - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 - [Codex | OpenAI Developers](http://community.openai.com/u/luisjg)
 - [Machine Learning Engineering Network](https://discord.gg/dzZTyfvJg)
+
+## 💻 Open Source
+- Contributing to [Metaflow](https://github.com/Netflix/metaflow)
 
 ![My GitHub Game](game.gif)
 
