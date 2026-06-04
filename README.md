@@ -11,10 +11,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 - [Machine Learning Engineering Network](https://discord.gg/dzZTyfvJg)
 
-## 💻 Open Source
-- Contributing to [Metaflow](https://github.com/Netflix/metaflow)
-
-### Contributions
+## 💻 Open Source Contributions
 
 | Repository | PR Title | PR Number |
 |---|---|---|
