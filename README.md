@@ -16,7 +16,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 ### Contributions
 
-| Project Name | PR Title | PR Number |
+| Repository | PR Title | PR Number |
 |---|---|---|
 | [Metaflow](https://github.com/Netflix/metaflow) | Fix broad exception handling in CLI step lookup and resume run-id validation | [#3179](https://github.com/Netflix/metaflow/pull/3179) |
 
