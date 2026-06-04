@@ -8,8 +8,10 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 - Small web apps (prototypes) with Codex
 
 ## 🤝 Community
-- [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
-- [Machine Learning Engineering Network](https://discord.gg/dzZTyfvJg)
+- [Codex, Ambassador](https://developers.openai.com/community/codex-ambassadors?city=miami-us)
+- [Agentic AI Foundation, Event Organizer](https://aaif.io/)
+- [Miami Snowflake User Group, Speaker & Member](https://usergroups.snowflake.com/miami/)
+- [Machine Learning Engineering Network, Founder](https://discord.gg/dzZTyfvJg)
 
 ## 💻 Open Source Contributions
 
