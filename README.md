@@ -3,8 +3,9 @@
 Software/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. I am also an OpenAI Codex Ambassador in Miami, Florida.
 
 ## 🚀 Currently Building
-- The Machine Learning Engineering Network community, centered on real-world engineering practices
-- Web apps with Codex
+- The Machine Learning Engineering Network community
+- BetterBite, the app that improves your health and the way you eat
+- Small web apps (prototypes) with Codex
 
 ## 🤝 Community
 - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
