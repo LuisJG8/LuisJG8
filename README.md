@@ -11,7 +11,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 - Ambassador - [OpenAI Codex](https://developers.openai.com/community/codex-ambassadors?city=miami-us)
 - Event Organizer - [Agentic AI Foundation](https://aaif.io/)
 - Founder - [Machine Learning Engineering Network](https://discord.gg/dzZTyfvJg)
-<!-- - Speaker & Member - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/) -->
+- Speaker & Member - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 
 
 ## 💻 Open Source Contributions
