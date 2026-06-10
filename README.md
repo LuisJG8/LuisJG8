@@ -4,7 +4,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 ## 🚀 Currently Building
 - The Machine Learning Engineering Network community
-- BetterBite, cross platform mobile app to improve your health by helping you make better food choices
+- BetterBite, A cross-platform mobile app that helps you find healthier versions of the foods you already love
 - Small web apps (prototypes) with Codex
 
 ## 🤝 Community
