@@ -21,7 +21,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 | [Metaflow](https://github.com/Netflix/metaflow) | Fix broad exception handling in CLI step lookup and resume run-id validation | [#3179](https://github.com/Netflix/metaflow/pull/3179) |
 | [Metaflow](https://github.com/Netflix/metaflow) | Fix/logs help default command | [#3252](https://github.com/Netflix/metaflow/pull/3252)
 | [Metaflow](https://github.com/Netflix/metaflow) | Narrow exception handling in CLI plugin commands | [#3192](https://github.com/Netflix/metaflow/pull/3192) |
-| [Metaflow](https://github.com/Netflix/metaflow) | Fix/run cmds help typo | [3267](https://github.com/Netflix/metaflow/pull/) |
+| [Metaflow](https://github.com/Netflix/metaflow) | Fix/run cmds help typo | [#3267](https://github.com/Netflix/metaflow/pull/) |
 
 ![My GitHub Game](game.gif)
 
