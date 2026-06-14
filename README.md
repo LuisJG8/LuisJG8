@@ -3,9 +3,9 @@
 Software/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. I am also an OpenAI Codex Ambassador in Miami, Florida.
 
 ## 🚀 Currently Building
+- Small web apps (prototypes) with Codex
 - The Machine Learning Engineering Network community
 - BetterBite, A cross-platform mobile app that helps you find healthier versions of the foods you already love
-- Small web apps (prototypes) with Codex
 
 ## 🤝 Community
 - Ambassador - [OpenAI Codex](https://developers.openai.com/community/codex-ambassadors?city=miami-us)
@@ -18,9 +18,10 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 | Project | PR Title | PR Number |
 |---|---|---|
-| [Metaflow](https://github.com/Netflix/metaflow) | Fix broad exception handling in CLI step lookup and resume run-id validation | [#3179](https://github.com/Netflix/metaflow/pull/3179) |
-| [Metaflow](https://github.com/Netflix/metaflow) | Fix/logs help default command | [#3252](https://github.com/Netflix/metaflow/pull/3252)
 | [Metaflow](https://github.com/Netflix/metaflow) | Fix/run cmds help typo | [#3268](https://github.com/Netflix/metaflow/pull/3268) |
+| [Metaflow](https://github.com/Netflix/metaflow) | Fix/logs help default command | [#3252](https://github.com/Netflix/metaflow/pull/3252)
+| [Metaflow](https://github.com/Netflix/metaflow) | Fix broad exception handling in CLI step lookup and resume run-id validation | [#3179](https://github.com/Netflix/metaflow/pull/3179) |
+
 
 ![My GitHub Game](game.gif)
 
