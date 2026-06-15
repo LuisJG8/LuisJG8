@@ -8,7 +8,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 - BetterBite, A cross-platform mobile app that helps you find healthier versions of the foods you already love
 
 ## 🤝 Community
-- Ambassador - [OpenAI Codex](https://developers.openai.com/community/codex-ambassadors?city=miami-us)
+- Ambassador - [OpenAI Codex](https://developers.openai.com/community/codex-ambassadors?ambassador=luis-gonzalez)
 - Event Organizer - [Agentic AI Foundation](https://aaif.io/)  
 - Founder - [Machine Learning Engineering Network](https://mlen.tech/)  
 - Speaker & Member - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
