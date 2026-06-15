@@ -1,6 +1,6 @@
 # Hi, I’m Luis 👋
 
-Software/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. I am also an OpenAI Codex Ambassador in Miami, Florida.
+Software/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. I am an OpenAI Codex Ambassador in Miami and a Metaflow open-source contributor.
 
 ## 🚀 Currently Building
 - Small web apps (prototypes) with Codex
