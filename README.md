@@ -3,7 +3,6 @@
 Software/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. I am an OpenAI Codex Ambassador in Miami and a Metaflow open-source contributor.
 
 ## 🚀 Currently Building
-- Small web apps (prototypes) with Codex
 - The Machine Learning Engineering Network community
 - BetterBite, a cross-platform mobile app that helps you find healthier versions of the foods you already love
 
