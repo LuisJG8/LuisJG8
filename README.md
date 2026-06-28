@@ -20,7 +20,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 | [Metaflow](https://github.com/Netflix/metaflow) | Fix/run cmds help typo | [#3268](https://github.com/Netflix/metaflow/pull/3268) |
 | [Metaflow](https://github.com/Netflix/metaflow) | Fix/logs help default command | [#3252](https://github.com/Netflix/metaflow/pull/3252)
 | [Metaflow](https://github.com/Netflix/metaflow) | Fix broad exception handling in CLI step lookup and resume run-id validation | [#3179](https://github.com/Netflix/metaflow/pull/3179) |
-| [Metaflow](https://github.com/npow/metaflow-jupyter/pull/22) | feat: enable defining Metaflow steps across notebook cells with %%step | [#3179](https://github.com/Netflix/metaflow/pull/3179) |
+| [Metaflow](https://github.com/npow/metaflow-jupyter/pull/22) | Jupyter-native Metaflow - feat: enable defining Metaflow steps across notebook cells with %%step | [#3179](https://github.com/Netflix/metaflow/pull/3179) |
 
 
 ![My GitHub Game](game.gif)
