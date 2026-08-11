@@ -10,7 +10,6 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 - Ambassador - [OpenAI Codex](https://developers.openai.com/community/codex-ambassadors?ambassador=luis-gonzalez)
 - Event Organizer - [Agentic AI Foundation](https://aaif.io/)
 - Founder - [Machine Learning Engineering Network](https://mlen.tech/)
-- Speaker & Member - [Miami Snowflake User Group](https://usergroups.snowflake.com/miami/)
 
 
 ## 💻 Open Source Contributions
