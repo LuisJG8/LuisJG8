@@ -4,7 +4,9 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 
 ## 🚀 Currently Building
 - The Machine Learning Engineering Network community
+<!--
 - BetterBite, a cross-platform mobile app that helps you find healthier versions of the foods you already love
+-->
 
 ## 🤝 Community
 - Ambassador - [OpenAI Codex](https://developers.openai.com/community/codex-ambassadors?ambassador=luis-gonzalez)
