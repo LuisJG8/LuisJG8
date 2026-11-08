@@ -1,6 +1,6 @@
 # Hi, I’m Luis 👋
 
-I am a Data Engineer at Royal Caribbean Group and I love to organize tech events. I have a deep passion for backend infrastructure, machine learning and data engineering. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. 
+I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend infrastructure, machine learning and data engineering. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. 
 
 ## 💻 Currently Building
 - AI automations for data pipelines 
