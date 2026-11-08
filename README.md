@@ -13,7 +13,7 @@ Data/ML Engineer with a deep passion for backend infrastructure, machine learnin
 ## 🤝 Community
 - Ambassador - [OpenAI Codex](https://developers.openai.com/community/codex-ambassadors?ambassador=luis-gonzalez)
 - Databricks User Group Organizer - [Miami Databricks User Group](https://usergroups.databricks.com/miami-databricks-user-group/)
-- Founder - [Machine Learning Engineering Network](https://mlen.tech/)
+<!-- - Founder - [Machine Learning Engineering Network](https://mlen.tech/) -->
 
 
 ## 💻 Open Source Contributions
