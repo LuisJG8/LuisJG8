@@ -5,7 +5,7 @@ Software/ML Engineer with a deep passion for backend infrastructure, machine lea
 ## 🚀 Currently Building
 - Codex community in Miami
 - Databricks community in Miami
-- The Machine Learning Engineering Network community
+<!-- - The Machine Learning Engineering Network community -->
 <!--
 - BetterBite, a cross-platform mobile app that helps you find healthier versions of the foods you already love
 -->
