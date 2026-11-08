@@ -1,6 +1,6 @@
 # Hi, I’m Luis 👋
 
-Data/ML Engineer with a deep passion for backend infrastructure, machine learning and distributed systems. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. I am an OpenAI Codex Ambassador in Miami and a Metaflow open-source contributor. Currently doing my Masters in Computer Science with a specialization in Machine Learning at Georgia Tech.
+I am a Data Engineer at Royal Caribbean Group and I love to organize tech events. I have a deep passion for backend infrastructure, machine learning and data engineering. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. Currently doing my Masters in Computer Science with a specialization in Machine Learning at Georgia Tech.
 
 ## 🚀 Currently Building
 - Codex community in Miami
