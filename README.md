@@ -4,8 +4,7 @@ I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend
 
 ## 💻 Currently Building
 - AI automations for data pipelines 
-- Codex community in Miami
-- Databricks community in Miami
+- ML/Data Pipelines
 <!-- - The Machine Learning Engineering Network community -->
 <!--
 - BetterBite, a cross-platform mobile app that helps you find healthier versions of the foods you already love
