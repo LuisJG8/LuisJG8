@@ -2,9 +2,10 @@
 
 I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend infrastructure, machine learning and data engineering. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. 
 
-## 💻 Currently Building
-- AI automations for data pipelines 
-- ML/Data Pipelines
+## 💻 Technical Interests
+- Work with Python, SQL, Databricks, and Azure.
+- Interested in data pipelines, automation, distributed systems, and ML systems.
+- Exploring how data and AI can solve business problems.
 <!-- - The Machine Learning Engineering Network community -->
 <!--
 - BetterBite, a cross-platform mobile app that helps you find healthier versions of the foods you already love
@@ -15,6 +16,8 @@ I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend
 - Databricks User Group Organizer - [Miami Databricks User Group](https://usergroups.databricks.com/miami-databricks-user-group/)
 <!-- - Founder - [Machine Learning Engineering Network](https://mlen.tech/) -->
 
+🎥 Learning in public
+I document my machine learning journey on YouTube through coding livestreams and study sessions.
 
 <!-- ## 💻 Open Source Contributions
 
