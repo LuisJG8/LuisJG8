@@ -3,8 +3,7 @@
 I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend infrastructure, machine learning and data engineering. I graduated from Florida International University with a Bachelor of Science in Computer Science in 2025. My coursework focused heavily on AI, ML and data systems. 
 
 ## 💻 Technical Interests
-- Work with Python, SQL, Databricks, and Azure.
-- Interested in data pipelines, automation, distributed systems, and ML systems.
+- Interested in data/ml pipelines, AI automations, backend infra and distributed systems.
 - Exploring how data and AI can solve business problems.
 <!-- - The Machine Learning Engineering Network community -->
 <!--
