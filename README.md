@@ -17,10 +17,10 @@ I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend
 <!-- - Founder - [Machine Learning Engineering Network](https://mlen.tech/) -->
 
 ## 🎥 Socials
-- [LinkedIn](https://www.linkedin.com/in/luisjg8/)
-- [Instagram](https://www.instagram.com/luis_gonzalez_828/)
-- [X](https://x.com/lglez828)
 - [YouTube](https://www.youtube.com/@ML_with_Luis)
+- [LinkedIn](https://www.linkedin.com/in/luisjg8/)
+- [X](https://x.com/lglez828)
+- [Instagram](https://www.instagram.com/luis_gonzalez_828/)
 
 
 <!-- ## 💻 Open Source Contributions
