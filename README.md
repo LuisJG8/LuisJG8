@@ -16,8 +16,12 @@ I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend
 - Databricks User Group Organizer - [Miami Databricks User Group](https://usergroups.databricks.com/miami-databricks-user-group/)
 <!-- - Founder - [Machine Learning Engineering Network](https://mlen.tech/) -->
 
-🎥 Learning in public
-I document my machine learning journey on YouTube through coding livestreams and study sessions.
+🎥 Socials
+- [LinkedIn](https://www.linkedin.com/in/luisjg8/)
+- [Instagram](https://www.instagram.com/luis_gonzalez_828/)
+- [X](https://x.com/lglez828)
+- [YouTube](https://www.youtube.com/@ML_with_Luis)
+
 
 <!-- ## 💻 Open Source Contributions
 
