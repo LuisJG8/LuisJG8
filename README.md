@@ -22,7 +22,7 @@ I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend
 - [Instagram](https://www.instagram.com/luis_gonzalez_828/)
 
 
-<!-- ## 💻 Open Source Contributions
+## 💻 Open Source Contributions
 
 | Project | PR Title | PR Number |
 |---|---|---|
@@ -31,7 +31,7 @@ I am a Data Engineer at Royal Caribbean Group. I have a deep passion for backend
 | [Metaflow](https://github.com/Netflix/metaflow) | Fix broad exception handling in CLI step lookup and resume run-id validation | [#3179](https://github.com/Netflix/metaflow/pull/3179) |
 | [Metaflow](https://github.com/npow/metaflow-jupyter/pull/22) | Jupyter Native Metaflow - feat: enable defining Metaflow steps across notebook cells | [#22](https://github.com/npow/metaflow-jupyter/pull/22) |
 
--->
+
 
 ![My GitHub Game](game.gif)
 
